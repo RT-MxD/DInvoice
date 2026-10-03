@@ -1,7 +1,7 @@
 """
 Streamlit UI for the D-Invoice Pipeline.
 
-Connects to the running FastAPI backend (default: http://localhost:8000)
+Connects to the running FastAPI backend (default: d-invoice-pi.vercel.app)
 and provides a rich, interactive dashboard for managing invoices.
 
 Run:
@@ -24,7 +24,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 API_BASE = st.sidebar.text_input(
     "API Base URL",
-    value="http://localhost:8000",
+    value="d-invoice-pi.vercel.app",
     help="Base URL of the running FastAPI backend",
 )
 
