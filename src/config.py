@@ -1,8 +1,8 @@
 """
 Central configuration, loaded from environment variables (.env supported).
 
-Nothing here is secret by default — the pipeline runs fully local with OpenRouter
-and SQLite so you can try it without any cloud accounts or paid API keys.
+Nothing here is secret by default — the pipeline runs fully  with OpenRouter
+and Vercel with Neon Database.
 """
 from __future__ import annotations
 
