@@ -7,7 +7,7 @@ Tesseract — there are no paid API calls anywhere in this service.
 Run it:
     uvicorn src.api:app --reload
     #  or:  python main.py serve
-Then open http://localhost:8000
+Then open d-invoice-pi.vercel.app
 """
 from __future__ import annotations
 
