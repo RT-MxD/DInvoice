@@ -58,7 +58,7 @@ MIN_PDF_TEXT_CHARS = int(os.getenv("MIN_PDF_TEXT_CHARS", "25"))
 # Web API / browser UI
 # ---------------------------------------------------------------------------
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
-API_PORT = int(os.getenv("API_PORT", "8000"))
+API_PORT = int(os.getenv("API_PORT", "0000"))
 
 # ---------------------------------------------------------------------------
 # Email fetcher (optional). Leave IMAP_HOST empty to disable.
